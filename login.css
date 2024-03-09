@@ -1,4 +1,4 @@
-/* signup.css */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -26,7 +26,7 @@ body {
 }
 
 header {
-    background-color: #800080; /* Purple color */
+    background-color: #800080; 
     padding: 10px 0;
     height: 43px;
     margin-bottom: 150px;
@@ -76,7 +76,7 @@ input[type="password"] {
 }
 
 button {
-    background-color:  pink; /* purple color */
+    background-color:  pink; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -85,7 +85,7 @@ button {
 }
 
 button:hover {
-    background-color:  palevioletred; /* darker shade of purple */
+    background-color:  palevioletred; 
 }
 
 button[type="submit"] {
@@ -97,7 +97,7 @@ p {
 }
 
 p a {
-    color: #800080; /* purple color */
+    color: #800080; 
     text-decoration: none;
 }
 
@@ -106,8 +106,8 @@ p a:hover {
 }
 
 footer {
-    background-color: #800080; /* Purple color */
-    color: #fff; /* Text color */
-    text-align: center; /* Align text to center */
-    padding: 10px 0; /* Add padding */
+    background-color: #800080; 
+    color: #fff; 
+    text-align: center; 
+    padding: 10px 0; 
 }
