@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -34,6 +35,38 @@ nav ul li a {
     display: none;
 }
 
+.quote-box {
+    background-color: lavender;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-input textarea {
+        width: 90%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .user-input input[type="submit"] {
+        background-color: pink;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .user-input input[type="submit"]:hover {
+        background-color: palevioletred;
+    }
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -58,7 +91,7 @@ nav ul li a {
 }
 
 #searchbutton{
-    background-color: #333;
+    background-color: pink;
     color: #fff;
     border-radius: 5px;
 }
