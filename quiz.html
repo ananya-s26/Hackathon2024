@@ -18,13 +18,13 @@
       padding: 20px;
       border: 1px solid #ccc;
       border-radius: 5px;
-      background-color: #f9f9f9; /* Light purple */
+      background-color: #f9f9f9; 
     }
 
     .quiz-container h1 {
       text-align: center;
       margin-top: 20px;
-      color: #800080; /* Purple */
+      color: #800080; 
     }
 
     .quiz-question {
@@ -42,13 +42,13 @@
     .quiz-options label {
       display: block;
       margin-bottom: 5px;
-      color: #333; /* Dark gray */
+      color: #333; 
     }
 
     button {
       padding: 10px 20px;
-      background-color: #800080; /* Purple */
-      color: #fff; /* White */
+      background-color: #800080; 
+      color: #fff; 
       border: none;
       border-radius: 5px;
       cursor: pointer;
@@ -57,12 +57,12 @@
     }
 
     button:hover {
-      background-color: #6a007d; /* Darker purple */
+      background-color: #6a007d; 
     }
 
     #score {
       text-align: center;
-      color: #333; /* Dark gray */
+      color: #333; 
     }
   </style>
 </head>
@@ -123,6 +123,7 @@
     <button onclick="submitQuiz()">Submit Quiz</button>
     <p id="score"></p>
   </div>
+  
   <script>
     function submitQuiz() {
       var answers = document.querySelectorAll('input[type="radio"]:checked');
@@ -134,7 +135,7 @@
           score++;
         }
       }
-      var totalQuestions = 5; // Change this to the total number of questions
+      var totalQuestions = 5; 
       var percentage = (score / totalQuestions) * 100;
       document.getElementById('score').textContent = 'Your score: ' + score + '/' + totalQuestions + ' (' + percentage.toFixed(2) + '%)';
     }
@@ -142,15 +143,15 @@
     function getCorrectAnswer(questionId) {
       switch (questionId) {
         case 'answer1':
-          return 'C'; // Correct answer for Women in STEM
+          return 'C'; 
         case 'answer2':
-          return 'A'; // Correct answer for Women in Art
+          return 'A'; 
         case 'answer3':
-          return 'A'; // Correct answer for Women in Business
+          return 'A'; 
         case 'answer4':
-          return 'B'; // Correct answer for Women in Leadership
+          return 'B'; 
         case 'answer5':
-          return 'A'; // Correct answer for Women in Academia
+          return 'A'; 
         default:
           return '';
       }

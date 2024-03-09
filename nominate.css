@@ -1,4 +1,4 @@
-/* styles.css */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #800080; /* Purple color */
+    background-color: #800080; 
     padding: 10px 0;
     height: 43px;
     margin-bottom: 0px;
@@ -81,16 +81,16 @@ button:hover {
 }
 
 .form-container {
-    background-color: lavender; /* Light blue background color */
-    padding: 20px; /* Add some padding for spacing */
-    border-radius: 10px; /* Add rounded corners */
-    margin: auto; /* Center the form horizontally */
-    max-width: 500px; /* Limit the maximum width of the form */
+    background-color: lavender; 
+    padding: 20px; 
+    border-radius: 10px; 
+    margin: auto; 
+    max-width: 500px; 
 }
 
 footer {
-    background-color: #800080; /* Purple color */
-    color: #fff; /* Text color */
-    text-align: center; /* Align text to center */
-    padding: 10px 0; /* Add padding */
+    background-color: #800080; 
+    color: #fff; 
+    text-align: center; 
+    padding: 10px 0; 
 }

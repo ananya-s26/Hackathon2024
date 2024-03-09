@@ -13,7 +13,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     max-width: 400px;
-    margin: auto; /* Center the form horizontally */
+    margin: auto; 
 }
 
 .form-group {
@@ -27,7 +27,7 @@ label {
 }
 
 header {
-    background-color: #800080; /* Purple color */
+    background-color: #800080; 
     padding: 10px 0;
     height: 43px;
 }
@@ -70,7 +70,7 @@ input[type="password"] {
 }
 
 button {
-    background-color: #800080; /* purple color */
+    background-color: #800080; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -79,7 +79,7 @@ button {
 }
 
 button:hover {
-    background-color: #660066; /* darker shade of purple */
+    background-color: #660066; 
 }
 
 button[type="submit"] {
@@ -91,7 +91,7 @@ p {
 }
 
 p a {
-    color: #800080; /* purple color */
+    color: #800080; 
     text-decoration: none;
 }
 
