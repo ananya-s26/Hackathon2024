@@ -1,0 +1,94 @@
+/* Reset default margin and padding for all elements and set background color */
+body {
+    font-family: Arial, sans-serif; /* Specify font family */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background color */
+    color: #333; /* Text color */
+}
+
+/* Styling for the header */
+header {
+    background-color: #800080; /* Purple color */
+    padding: 10px 0;
+    height: 43px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 20px; /* Add margin between list items */
+}
+
+nav ul li a {
+    color: #fff; /* Text color */
+    text-decoration: none;
+}
+
+/* Styling for image containers */
+.image-container {
+    max-width: 100%; /* Set maximum width to prevent image from overflowing */
+    overflow: hidden; /* Hide any overflowing content */
+    margin-bottom: 100px;
+}
+
+/* Styling for images within image containers */
+.image-container img {
+    width: 1500px; /* Make image fill the container's width */
+    height: 500px; /* Maintain aspect ratio */
+    display: block; /* Ensure proper rendering */
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #800080; /* Purple color */
+    color: #fff; /* Text color */
+    text-align: center; /* Align text to center */
+    padding: 10px 0; /* Add padding */
+}
+
+/* Additional styling for marquee element */
+marquee {
+    font-family: 'Times New Roman', Times, serif; /* Specify font family */
+    font-weight: bold; /* Make text bold */
+}
+
+/* Styling for post-info section */
+.post-info {
+    margin: 20px;
+
+}
+
+/* Styling for post-info headings */
+.post-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Styling for post-info list */
+.post-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Styling for post-info list items */
+.post-info ul li {
+    margin-bottom: 8px;
+}
+
+/* Styling for post-info links */
+.post-info a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Styling for post-info links on hover */
+.post-info a:hover {
+    text-decoration: underline;
+}
